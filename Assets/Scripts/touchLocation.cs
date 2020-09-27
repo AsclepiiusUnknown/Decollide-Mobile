@@ -5,11 +5,13 @@ using UnityEngine;
 public class touchLocation : MonoBehaviour
 {
     public int touchID;
-    public GameObject circle;
+    public GameObject planet;
+    public bool manualMove = false;
 
-    public touchLocation(int newTouchID, GameObject newCircle)
+    public touchLocation(int newTouchID, GameObject newPlanet, bool newManualMove)
     {
         touchID = newTouchID;
-        circle = newCircle;
+        planet = newPlanet;
+        manualMove = newManualMove;
     }
 }
