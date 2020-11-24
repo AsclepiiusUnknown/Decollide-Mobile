@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public float timeToComplete;
     private float _score = 0;
 
-    private bool _gameOver = false;
+    public static bool _gameOver = false;
 
 
     private void Update()
@@ -23,7 +23,8 @@ public class GameManager : MonoBehaviour
             return;
 
         _score += Time.deltaTime;
-        score.text = "SCORE: " + _score.ToString("F0");
+        if (score != null)
+            score.text = "SCORE: " + _score.ToString("F0");
 
         if (_score >= timeToComplete)
         {

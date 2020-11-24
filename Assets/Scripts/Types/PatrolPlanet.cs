@@ -31,7 +31,7 @@ public class PatrolPlanet : MonoBehaviour
         }
     }
 
-    Vector2 GetRandomPos()
+    public Vector2 GetRandomPos()
     {
         float randomX = Random.Range(minMaxX.x, minMaxX.y);
         float randomY = Random.Range(minMaxY.x, minMaxY.y);
