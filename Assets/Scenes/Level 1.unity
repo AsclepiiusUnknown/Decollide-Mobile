@@ -929,9 +929,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1001032956480608, guid: 7afd1ca8b7d81324a848dfa952c09969, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1642415453544894, guid: 7afd1ca8b7d81324a848dfa952c09969, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1823755927737918, guid: 7afd1ca8b7d81324a848dfa952c09969, type: 3}
       propertyPath: m_Name
       value: ExampleUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823755927737918, guid: 7afd1ca8b7d81324a848dfa952c09969, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4469926412411568, guid: 7afd1ca8b7d81324a848dfa952c09969, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1077,6 +1089,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trello Tool
       objectReference: {fileID: 0}
+    - target: {fileID: 1815355644646716, guid: 2245b61a9ca1fc44db55afc1ca76ab6e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956720770558068, guid: 2245b61a9ca1fc44db55afc1ca76ab6e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011413948256, guid: 2245b61a9ca1fc44db55afc1ca76ab6e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1120,6 +1140,21 @@ PrefabInstance:
     - target: {fileID: 4000011413948256, guid: 2245b61a9ca1fc44db55afc1ca76ab6e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114698664879617658, guid: 2245b61a9ca1fc44db55afc1ca76ab6e,
+        type: 3}
+      propertyPath: yourKey
+      value: 37c732954c5b0b87e1fb96b899fd6eb5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114698664879617658, guid: 2245b61a9ca1fc44db55afc1ca76ab6e,
+        type: 3}
+      propertyPath: yourToken
+      value: b024051613d904835faa9e0307d3e765ad338b174095f2d59eb15081895341d7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114698664879617658, guid: 2245b61a9ca1fc44db55afc1ca76ab6e,
+        type: 3}
+      propertyPath: currentBoard
+      value: Decollide Mobile Bug Tracking
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2245b61a9ca1fc44db55afc1ca76ab6e, type: 3}
